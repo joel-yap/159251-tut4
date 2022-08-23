@@ -36,6 +36,6 @@ jobs:
           echo test, and deploy your project.
       
       # Run tests
-        -name: Run maven tests
+      - name: Run maven tests
         run: mvn clean test
 
